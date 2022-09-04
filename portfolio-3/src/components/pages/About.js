@@ -1,17 +1,20 @@
-import React from 'react';
+import React, {useState} from 'react';
+import PDF from '../assets/Resume.pdf'
 
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>About Me</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      I am a motivated people manager with over 5 years of management experience in a variety of
+            fields and environments. I excel at developing and implementing technical processes and
+            managing team resources and time in order to meet targets on-time and under budget.
+
+            Currently enrolled in a full-stack web development boot camp and have become familiar with
+            JavaScript, React, GraphQL, NoSQL, and many other forms of web development.
       </p>
+      <object width="100%" height="800" data={PDF} type="application/pdf" />
+                
     </div>
   );
 }
