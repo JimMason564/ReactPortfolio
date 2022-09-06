@@ -1,30 +1,28 @@
 import React from "react";
 
-export default function Projects(props) {
-  const cardStyle = {
-    width: "18rem",
-  };
+export default function Projects({project}) {
+    const cardStyle = {
+      width: "30rem",
+    };
+const {name, description, repo, live, image} = project
 
   return (
+  <div className = "projectCard">
     <ul className="list-group">
-      {props.Projects.map((name, description, repo, id, live) => {
-        return (
-          <div className="container">
+            <div className="container">
             <div className="card" style={cardStyle}>
-              <img className="card-img-top" src={props.image} alt="Card cap" />
+              <img className="card-img-top" src={require(`./assets/projects/${image}`)} alt={name} />
               <div className="card-body">
                 <h5 className="card-title">Name: {name}</h5>
                 <p className="card-text">Description: {description}</p>
                 <p className="card-text">Github Repo: {repo}</p>
-                <p className="card-text">ID: {id}</p>
-                <a href="props.live" className="btn btn-primary">
-                  Deployed site
+                <a href = {live} className="btn btn-primary">
+                  {name}
                 </a>
               </div>
             </div>
           </div>
-        );
-      })}
     </ul>
+    </div>
   );
-}
+  }

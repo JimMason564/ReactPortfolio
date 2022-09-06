@@ -1,23 +1,41 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Projects from '../Projects'
 
 export default function Portfolio() {
 
-  const project = 
+  const [projects] = useState([
     {
-      id: '1',
       name: 'Stack My Paddle',
       description:'Test test test',
       repo: 'https://github.com/furhan-dev/pickleball',
       live: 'https://www.stackmypaddle.com/',
-      image:'https://github.com/furhan-dev/pickleball/blob/main/public/assets/images/screenshot.jpg',
+      image:'screenshot.jpg'
+    },
+    {
+      name: 'Stack My Paddle',
+      description:'Test test test',
+      repo: 'https://github.com/furhan-dev/pickleball',
+      live: 'https://www.stackmypaddle.com/',
+      image:'screenshot.jpg'
+    },
+    {
+      name: 'Stack My Paddle',
+      description:'Test test test',
+      repo: 'https://github.com/furhan-dev/pickleball',
+      live: 'https://www.stackmypaddle.com/',
+      image:'screenshot.jpg'
     }
-
-  ;
+  ]);
 
   return (
     <div>
-        <Projects name={project.name} description={project.description} repo={project.repo} live={project.live} image={project.image} />
+      <div>
+      {projects.map((project,index)=>(
+        <Projects project = {project}
+        key = {"project"+index}
+        />
+      ))}
+        </div>
     </div>
   );
 }
