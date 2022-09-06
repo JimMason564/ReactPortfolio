@@ -3,18 +3,17 @@ import React from 'react';
 export default function Home() {
   return (
     <div>
+      <div ></div>
       <h1>Home Page</h1>
+      <img src="./assets/projects/profile.jpg" alt="Me" ></img>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+           I am a motivated people manager with over 5 years of management experience in a variety of
+            fields and environments. I excel at developing and implementing technical processes and
+            managing team resources and time in order to meet targets on-time and under budget.
+          <br></br>
+          <br></br>
+            Currently enrolled in a full-stack web development boot camp and have become familiar with
+            JavaScript, React, GraphQL, NoSQL, and many other forms of web development.
       </p>
     </div>
   );

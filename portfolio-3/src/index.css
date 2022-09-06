@@ -1,12 +1,25 @@
-
-
 footer {
     position:absolute;
-left:0;
-bottom:0;
-right:0;
+    left:0;
+    bottom:0;
+    right:0;
 }
 
-.projectCard{
-    flex:flexrow
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
 }
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+
+
+ul#horizontal-list li {
+		display: inline;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./components/assets/projects/profile.jpeg")};
