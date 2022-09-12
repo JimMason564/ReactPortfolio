@@ -4,6 +4,7 @@ export default function Home() {
   return (
     <div>
       <div ></div>
+      <img className= "picture" src={require("../assets/profile.jpeg")} alt="Me"/>
       <h1>About Me</h1>
    <p>
            I am a motivated people manager with over 5 years of management experience in a variety of

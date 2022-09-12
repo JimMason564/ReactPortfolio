@@ -8,7 +8,7 @@ export default function Projects({project}) {
 const {name, description, repo, live, image} = project
 
   return (
-  <div className="table">
+  <div >
     <ul id= "horizontal-list" className="list-group">
             <div className="container">
             <div className="card" style={cardStyle}>
