@@ -3,7 +3,8 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 export default function Footer() {
   return (
-    <footer class="bg-dark text-center text-white">
+    <footer class="text-center">
+      <div>
       <div class="text-center p-3">
         <a className= 'footerContact' href='https://github.com/JimMason564'>
           <i class="bi bi-github"></i>
@@ -16,7 +17,8 @@ export default function Footer() {
         <a className= 'footerContact' href='https://stackoverflow.com/users/19965287/jm458'>
           <i class="bi bi-stack-overflow"></i>
         </a>
-        <a class="text-white"></a>
+        <a></a>
+      </div>
       </div>
     </footer>
   );

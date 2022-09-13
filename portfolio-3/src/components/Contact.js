@@ -27,15 +27,15 @@ export default function Contact() {
     e.preventDefault();
 
     if (!emailValidation(email)) {
-      setErrorMessage("Please enter a valid email address");
+      setErrorMessage("Must enter valid email address");
       return;
     }
     if (!name) {
-      setErrorMessage(`Please enter your name`);
+      setErrorMessage(`Must enter name`);
       return;
     }
     if (!message) {
-      setErrorMessage(`Please enter a message`);
+      setErrorMessage(`Must enter message`);
       return;
     }
 
@@ -46,17 +46,15 @@ export default function Contact() {
 
   return (
     <div>
-      <header className="masthead">
+      <header className="head">
         <div className="container">
-          <div className="masthead-subheading">Contact</div>
+          <h2 className="heading"> Please reach out with any questions or work inquiries</h2>
         </div>
       </header>
       <section className="page-section bg-light" id="contact">
         <div className="container">
           <div className="text-center">
-            <h2 className="section-heading">
-              Please reach out with any questions or work inquiries
-            </h2>
+         
           </div>
           <div className="row">
            
@@ -94,7 +92,7 @@ export default function Contact() {
                 />
               </Form.Group>
               <Button
-                className="btn btn-dark textUppercase"
+                className="button"
                 variant="primary"
                 type="submit"
                 onClick={handleFormSubmit}
@@ -108,7 +106,6 @@ export default function Contact() {
               </div>
             )}
           </div>
-          
         </div>
       </section>
     </div>
