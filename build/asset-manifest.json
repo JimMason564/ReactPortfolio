@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ReactPortfolio/static/css/main.5e77bde3.css",
+    "main.js": "/ReactPortfolio/static/js/main.fdf4df16.js",
+    "static/media/movie.jpg": "/ReactPortfolio/static/media/movie.06eeb03926fe2aa2bc8a.jpg",
+    "static/media/dayplanner.jpg": "/ReactPortfolio/static/media/dayplanner.8dbd9bf4202d1b145b6c.jpg",
+    "static/media/screenshot.jpg": "/ReactPortfolio/static/media/screenshot.8cd905d862e7399bbfda.jpg",
+    "static/media/profGen.jpg": "/ReactPortfolio/static/media/profGen.5feccc7ff5329cc3778a.jpg",
+    "static/media/bootstrap-icons.woff?": "/ReactPortfolio/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
+    "static/media/bootstrap-icons.woff2?": "/ReactPortfolio/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
+    "static/media/text.jpg": "/ReactPortfolio/static/media/text.658aa3b779bc3d43e780.jpg",
+    "static/media/Resume.pdf": "/ReactPortfolio/static/media/Resume.d3fdc3140b43fc9abea8.pdf",
+    "static/media/profile.jpeg": "/ReactPortfolio/static/media/profile.3898fc1246af5adfa74f.jpeg",
+    "static/media/notetaker.jpg": "/ReactPortfolio/static/media/notetaker.65dc4ef254cd29a7e6e5.jpg",
+    "index.html": "/ReactPortfolio/index.html",
+    "main.5e77bde3.css.map": "/ReactPortfolio/static/css/main.5e77bde3.css.map",
+    "main.fdf4df16.js.map": "/ReactPortfolio/static/js/main.fdf4df16.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e77bde3.css",
+    "static/js/main.fdf4df16.js"
+  ]
+}

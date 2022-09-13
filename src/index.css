@@ -1,23 +1,46 @@
 footer {
-    position:absolute;
+    position: relative;
     left:0;
     bottom:0;
     right:0;
+	background-color: #C7C8CA;
+	color:#C1232C;
 }
 
-.table {
-	display: table;   /* Allow the centering to work */
-	margin: 0 auto;
+.about {
+	display: flex;
+	align-items: flex-end;
+	background-color:#27201e;
+	color: #C1232C;
+  }
+
+.aboutMe{
+	display: flex;
+	align-items: center;
 }
 
-ul#horizontal-list {
-	min-width: 696px;
-	list-style: none;
-	padding-top: 20px;
-	}
+.abText{
+	margin: 10px;
 
-
-ul#horizontal-list li {
-		display: inline;
 }
 
+.header{
+	background-color: #C7C8CA;
+	color: #C1232C
+}
+
+.photo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.head{
+	background-color:#C7C8CA;
+	color:#C1232C;  
+}
+
+.container{
+	background-color: #C7C8CA;
+}

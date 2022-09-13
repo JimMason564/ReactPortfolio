@@ -6,7 +6,7 @@ export default function Resume() {
   return (
     <div>
       <h1>Resume</h1>
-      <object width="100%" height="800" data={PDF} type="application/pdf" />
+      <object width="100%" height="900" data={PDF} type="application/pdf" />
                 
     </div>
 
