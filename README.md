@@ -1,6 +1,6 @@
 ## React Portfolio
 
-![image](Insert screen shot)
+![image](./src/assets/portfolio.jpeg)
 
 ## Description
 This is my portfolio, built using React principles.
@@ -21,8 +21,4 @@ SO THAT I can assess whether they're a good candidate for an open position
 ## Github Repo
 https://github.com/JimMason564/ReactPortfolio
 
-## Deployed Heroku Link
-
-
-## Screenshot
-![image](./Assets/graphql.jpeg)
+## Deployed Link
